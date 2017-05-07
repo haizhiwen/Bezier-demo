@@ -12,6 +12,7 @@
 		4F36A3761EBDD69300AC778A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F36A3751EBDD69300AC778A /* ViewController.m */; };
 		4F36A37B1EBDD69300AC778A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F36A37A1EBDD69300AC778A /* Assets.xcassets */; };
 		4F36A37E1EBDD69300AC778A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F36A37C1EBDD69300AC778A /* LaunchScreen.storyboard */; };
+		4F36A38D1EBDE39D00AC778A /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F36A38C1EBDE39D00AC778A /* BaseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		4F36A37A1EBDD69300AC778A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F36A37D1EBDD69300AC778A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F36A37F1EBDD69300AC778A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F36A38B1EBDE39D00AC778A /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		4F36A38C1EBDE39D00AC778A /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +43,7 @@
 		4F36A3621EBDD69300AC778A = {
 			isa = PBXGroup;
 			children = (
+				4F36A38A1EBDE38E00AC778A /* View */,
 				4F36A36D1EBDD69300AC778A /* Bezier */,
 				4F36A36C1EBDD69300AC778A /* Products */,
 			);
@@ -74,6 +78,15 @@
 				4F36A36F1EBDD69300AC778A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F36A38A1EBDE38E00AC778A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F36A38B1EBDE39D00AC778A /* BaseView.h */,
+				4F36A38C1EBDE39D00AC778A /* BaseView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 				4F36A3761EBDD69300AC778A /* ViewController.m in Sources */,
 				4F36A3731EBDD69300AC778A /* AppDelegate.m in Sources */,
 				4F36A3701EBDD69300AC778A /* main.m in Sources */,
+				4F36A38D1EBDE39D00AC778A /* BaseView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
